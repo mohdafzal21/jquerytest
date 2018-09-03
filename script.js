@@ -4,12 +4,15 @@
 $(document).ready(function(){
   
 
- $('.content').on('click', function(){
+//  $('.content').on('click', function(){
 
-         window.open("https://www.google.com", "_blank")
- });
+        
+//  window.open("https://www.google.com", "_blank")
+//  });
 
-console.log($('p'));
+$('.content p:last-child').on('click', function(){
+    window.open("https://www.facebook.com","_self");
+})
 
 })
 
